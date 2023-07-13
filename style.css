@@ -1,0 +1,166 @@
+*body{
+    margin: 0;
+    padding: 0;
+
+}
+#color{
+    background-color: rgb(80, 80, 80);
+
+}
+.logo{
+    width: 6.3%;
+    height: 6.3%;
+}
+.navbar{
+    display: flex;
+   
+}
+.navbar ul li{
+    display: inline;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+ ul li a
+ {
+   transition: 0.5s ease-in-out
+ 
+
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+button{
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+}
+a:hover{
+    color: rgb(236, 143, 22);
+}
+
+#image1{
+    height: 40%;
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+   box-shadow: 0px 0px 15px rgb(19, 18, 18);
+}
+.nature{
+    float: right;
+    margin-top: 16%;
+    margin-right: 150px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(55, 55, 145);
+}
+#image2{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+  box-shadow: 1px 1px 10px black;
+  margin-top: 20px;
+  
+  
+}
+.places{
+    color: rgb(175, 10, 10);
+    font-size: 25px;
+    font-family:  sans-serif;
+    margin-left: 3%;
+    margin-top: 4%;
+
+}
+.marquee{
+    height: 20px;
+    margin-left: 20px;
+   
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(199, 141, 94);
+    background-color: rgb(19, 18, 18);
+    
+}
+h2{
+    color: rgb(161, 85, 31);
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+   
+}
+.content .card{
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.content .card img{
+    width:350px;
+    height: 300px;
+}
+.content .card h2{
+    color: rgb(247, 106, 6);
+    font-size: 30px;
+}
+.content .card button{
+    color: white;
+    background-color: black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+   
+}
+.row .card{
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.row .card img{
+    width:350px;
+    height: 300px;
+}
+.row .card h2{
+    color: rgb(247, 106, 6);
+    font-size: 30px;
+}
+.row .card button{
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    background-color: rgb(59, 57, 57);
+    color: aliceblue;
+}
+.footer .card {
+    width:350px;
+    height: 100px;
+}
